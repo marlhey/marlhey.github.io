@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;1,300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    background: url("../img/fondo.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header{
+    width: 80%;
+    padding: 1rem 10%;
+    background-color: rgb(12, 12, 12);
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-bottom: 50px;
+    border-radius: 15px;
+
+}
+
+.cuadroCentro{
+    position: relative;
+    width: 80%;
+    background: #00000085;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    color: aliceblue;
+    float: left;
+    margin-top: 10%;
+    margin-left:10%;
+}
+h1{
+    float: left;
+    padding: 1%;
+    letter-spacing: 2px;
+    font-size: 60px;
+    width: 100%;
+    text-align: center;  
+    color:aliceblue;
+}
+
+.paragraph{
+  
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 5rem;
+    background-image: url(../img/noise.svg);
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    
+}
+
+.navbar a{
+     font-size: 1rem;
+     color:rgb(180, 177, 177);
+     text-decoration: none;
+     font-weight: 500;
+     margin-left: 0.7rem;
+}
+
+.navbar a:hover{
+    color: rgb(255, 255, 255);
+    font-size: 0.95rem;
+    font-weight: bold;
+
+}
+
+.icons{
+    font-size: 1rem;
+    margin-left: 90%;
+    color: rgb(211, 217, 222);
+    cursor: pointer;
+    display: none;
+
+}
+div.imagenesarriba{
+     display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+div.img1{
+    width: 350px;
+    height: 200px;
+    margin: 10px;
+    margin-left: 15px;
+   
+}
+
+div.img1 >img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15%;
+    object-fit: cover;
+}
+
+div.imagenesabajo{
+    display: flex;
+   justify-content: space-between;
+   width: 100%;
+}
+
+div.img2{
+    width: 250px;
+    height: 260px;
+    margin: 10px;
+    margin-right: 15px;
+}
+
+div.img2 >img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+div.img3{
+    width: 350px;
+    height: 200px;
+    margin: 10px;
+    margin-left: 15px;
+   
+}
+
+div.img3 >img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15%;
+    object-fit: cover;
+}

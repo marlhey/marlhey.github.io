@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;1,300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    background: url("./img/fondo.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header{
+    width: 80%;
+    padding: 1rem 10%;
+    background-color: rgb(12, 12, 12);
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-bottom: 50px;
+    border-radius: 15px;
+}
+
+.cuadroCentro{
+    position: relative;
+    width: 80%;
+    background: #00000085;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    color: aliceblue;
+    float: left;
+    margin-top: 10%;
+    margin-left:10%;
+}
+.navbar a{
+    font-size: 1rem;
+    color:rgb(180, 177, 177);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 0.7rem;
+}
+
+.navbar a:hover{
+   color: rgb(255, 255, 255);
+   font-size: 0.95rem;
+   font-weight: bold;
+
+}
+
+.icons{
+    font-size: 2.8rem;
+    color: aliceblue;
+    cursor: pointer;
+    display: none;
+
+}
+
+section#seccion2{
+
+    float: left;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #00000085;
+    backdrop-filter: blur(10px);
+    
+
+}
+
+section#seccion2 > div{
+
+    width: 80%;
+    float: left;
+    background-color: rgb(73, 27, 70);
+    height: 70%;
+    margin-top: 70px;
+    margin-left: 10%;
+    text-align: center;
+}
+
+section#seccion2 > div> h4{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.card{
+    margin-top: 50px;
+    margin-left: 2%;
+    width: 22.5%;
+    height: 360px;
+    background-color: rgba(82, 138, 187,0.5);
+    border-radius: 5px;
+    float: left;
+}
+
+.card .btnCart{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    color: aliceblue;
+    margin: 5px;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 2;
+    margin-left: calc(100% - 30px);
+
+}
+
+.card img{
+    width: 90%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card h2, .card h3 {
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.btn{
+    display:block;
+    width: 50%;
+    margin: 0  auto;
+    padding: 5px;
+    background-color:black ;
+    color: aliceblue;
+    text-align: center;
+    height: 30px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+}
+
+section#seccion2 >div.barraBuscar >input{
+    width: 75%;
+    height: 100%;
+    
+}
+
+section#seccion2 >div.barraBuscar >button{
+    width: 10%;
+    height: 100%;
+}
+
+section#seccion2 >div.barraBuscar {
+    width: 40%;
+    float: right;
+    height: 40px;
+    margin-top: 100px;
+    margin-right: 10%;
+    text-align: center;
+}
+
+
+section#seccion2 >div.opciones >input{
+    float: left;
+}
+
+section#seccion2 >div.opciones> div >label{
+  display: block;
+  padding-left: 20px;
+  width: 100%;
+  height: 30px;
+}
+
+section#seccion2 >div.opciones{
+    width: 15%;
+    float: left;
+    height: 80px;
+    margin-top: 100px;
+    margin-left: 10%;
+    text-align: left;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoyo negro</title>
+
+    <style>
+       *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+       }
+       body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: black;
+       }
+
+       .circulo1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        border: 3px solid #e7e5a5;
+        border-top: 3px solid #666306;
+        animation: ani 3s linear infinite;
+
+       }
+
+       .circulo2{
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        border: 3px solid #fee8fe;
+        border-top: 3px solid #f9ce24;
+        animation:  ani 2s linear infinite;
+       }
+
+       @keyframes ani{
+        0%{
+            transform: rotate(0deg);
+        }
+        100%{
+            transform: rotate(360deg);
+        }
+       }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="circulo1">
+            <div class="circulo2"></div>
+        </div>
+    </div>
+
+    
+</body>
+</html>

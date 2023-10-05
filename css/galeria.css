@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;1,300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    background: url("../img/fondo.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header{
+    width: 80%;
+    padding: 1rem 10%;
+    background-color: rgb(12, 12, 12);
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-bottom: 50px;
+    border-radius: 15px;
+}
+
+.cuadroCentro{
+    position: relative;
+    width: 80%;
+    background: #00000085;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    color: aliceblue;
+    float: left;
+    margin-top: 10%;
+    margin-left:10%;
+}
+.navbar a{
+    font-size: 1rem;
+    color:rgb(180, 177, 177);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 0.7rem;
+}
+
+.navbar a:hover{
+   color: rgb(255, 255, 255);
+   font-size: 0.95rem;
+   font-weight: bold;
+
+}
+
+.icons{
+    font-size: 2.8rem;
+    color: aliceblue;
+    cursor: pointer;
+    display: none;
+
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    display: inline-block;
+
+}
+
+.contenedorGaleria > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorGaleria > div > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+
+}
+
+.contenedorGaleria{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    grid-auto-rows: 300px;
+    grid-auto-flow: dense;
+}
+
+.contenedorGaleria .wide{
+    grid-column: span 2;
+
+}
+
+.contenedorGaleria .tall{
+    grid-row: span 2;
+}
+
+.contenedorGaleria .big{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+h1{
+text-align: center;
+}
+
+div.estrellas{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    margin-top: 22%;
+    float: left;
+    display: flex;
+
+}

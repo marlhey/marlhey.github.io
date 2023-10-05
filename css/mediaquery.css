@@ -1,0 +1,45 @@
+@media only screen and (min-width: 300px) and (max-width: 576px){
+    .header{
+        display: none;   
+       
+    }
+
+    .icons{
+        display: block;
+    }
+    
+    .imagenesarriba{
+        display:flow-root;
+    }
+
+    .imagenesabajo{
+       display:flow-root;
+    }
+
+    .paragraph{
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 1000px){
+
+    .header{
+        display: none;
+    }
+    .icons{
+        display: block;
+    }
+    
+    .imagenesarriba{
+        display: flow-root;
+    }
+
+    .imagenesabajo{
+        display:  flow-root;
+    }
+
+    .paragraph{
+        font-size: 3rem;
+    }
+
+}

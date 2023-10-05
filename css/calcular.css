@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;1,300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    background: url("../img/fondo.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header{
+    width: 80%;
+    padding: 1rem 10%;
+    background-color: rgb(12, 12, 12);
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-bottom: 50px;
+    border-radius: 15px;
+}
+
+.cuadroCentro{
+    position: relative;
+    width: 80%;
+    background: #00000085;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    color: aliceblue;
+    float: left;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom:20%;
+}
+.navbar a{
+    font-size: 1rem;
+    color:rgb(180, 177, 177);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 0.7rem;
+}
+
+.navbar a:hover{
+   color: rgb(255, 255, 255);
+   font-size: 0.95rem;
+   font-weight: bold;
+
+}
+
+.icons{
+    font-size: 2.8rem;
+    color: aliceblue;
+    cursor: pointer;
+    display: none;
+
+}
+
+
+div.contenedor{
+    display: flex;
+    float: left;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+div.imgClass{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    margin-left: 15px;
+    margin-bottom: 25%;
+}
+
+div.imgClass >img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+div.imgClass >h4{
+ text-align: center;
+}
+
+h1{
+text-align: center;
+ }
+
+ div.contenedorCalcular1{
+    float: left;
+    justify-content: space-between;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    width: 30%;
+ 
+ }
+
+ div.contenedorCalculadora2{
+    float: left;
+    justify-content: space-between;
+    margin-bottom: 10%;
+    width: 30%;
+ }
+
+ div.total > h3{
+    float: left;
+    justify-content: center;
+    margin-bottom: 10%;
+    width: 20%;
+ }
