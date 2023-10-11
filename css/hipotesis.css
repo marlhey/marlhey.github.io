@@ -116,6 +116,7 @@ text-align: center;
     margin: 10px 0;
     width: 80%;
     margin-left: 10%;
+    height: 144px;
   
   }
   
@@ -124,16 +125,23 @@ text-align: center;
     border-color: #2457a4;
     background-color:rgba(82, 138, 187,0.5);
   }
+
+  /*Clear floats*/
+  .container::after{
+    content: "";
+    clear:both;
+    display: table;
+  }
   
    
   /* Style images */
   .container img {
-    float: left;
     max-width: 60px;
     width: 100%;
     margin-right: 10px;
     border-radius: 50%;
     object-fit: cover;
+    
   }
   
   /* Style the right image */
@@ -206,3 +214,30 @@ text-align: center;
     color: beige;
     transition-duration: 200ms;
   }
+
+
+  /*Personas en Linea*/
+ div.EnLinea{
+  float: left;
+  background-color: rgb(218, 230, 230);
+  width: 10%;
+  height: auto;
+  margin-left: 85%;
+  margin-right: 5%;
+ }
+ 
+ 
+ .imgProfile{
+    width: 45px;
+    height: 45px;   
+    border-radius: 50%;
+
+}
+
+.online{
+    border: 2px solid #2b8318;
+}
+
+.ofline{
+    border: 2px solid #9b2a18;
+}
