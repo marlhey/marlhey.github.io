@@ -71,9 +71,9 @@ body{
 
 
 div.cajaIzquierda{
-  width: 25%;
-  padding-top: 5%;
-  padding-bottom: 2%;
+  width: 50%;
+  float: left;
+  height: auto;
 }
 
 div.opciones{
@@ -183,7 +183,8 @@ text-align: center;
     border-radius: 20px;
     width: 35%;
     height: auto;
-    margin-left: 45%;
+    margin-left: 2.5%;
+    float: left;
 
   }
 
@@ -198,8 +199,8 @@ text-align: center;
   }
 
   div.Mensaje > textarea{
-    margin-left: 70%;
-    width: 100%;
+    margin-left: 5%;
+    width: 95%;
     height: 200px;
 
     }
@@ -219,11 +220,15 @@ text-align: center;
   /*Personas en Linea*/
  div.EnLinea{
   float: left;
-  background-color: rgb(218, 230, 230);
+  background-color: rgb(233, 241, 241);
   width: 10%;
   height: auto;
-  margin-left: 85%;
-  margin-right: 5%;
+  margin-right: 1.5%;
+  margin-left: 1%;
+ }
+
+ div.EnLinea > a{
+  text-decoration: none;
  }
  
  
